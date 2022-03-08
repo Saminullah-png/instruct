@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0.5rem;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 2rem;
+        }
+        
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            font-size: x-large;
+        }
+        
+        li:hover {
+            cursor: pointer;
+            color: red
+        }
+        
+        nav {
+            width: 60vw;
+            margin-top: -0.2rem;
+        }
+        
+        -->-->.bigImage {
+            width: 95vw;
+            margin-bottom: 4rem;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .container>div {
+            text-align: center;
+            margin: 2rem;
+        }
+        
+        .container>div>p {
+            font-size: x-large;
+            line-height: 1.5rem;
+        }
+        
+        h1 {
+            font-weight: normal;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: rgb(170, 90, 90);
+            color: whitesmoke;
+            height: 4rem;
+            font-size: x-large;
+        }
+        
+        footer>p {
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>DEV 101</h1>
+        <nav>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </nav>
+    </header>
+
+    <img class="bigImage" src="https://mohd-aman.github.io/devSite/img/lap.jpeg" alt="image was here">
+
+    <div class="container">
+        <div>
+            <img src="https://mohd-aman.github.io/devSite/img/html.png" alt="html image">
+            <h1>HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quisquam dolorum numquam excepturi ex sint id, assumenda praesentium vel error, laboriosam, autem rerum! Odio ex maiores ut deserunt rerum recusandae.</p>
+        </div>
+        <div>
+            <img src="https://mohd-aman.github.io/devSite/img/css.png" alt="css image">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quisquam dolorum numquam excepturi ex sint id, assumenda praesentium vel error, laboriosam, autem rerum! Odio ex maiores ut deserunt rerum recusandae.</p>
+        </div>
+        <div>
+            <img src="https://mohd-aman.github.io/devSite/img/icon.png" alt="JavaScript image">
+            <h1>JavaScript</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quisquam dolorum numquam excepturi ex sint id, assumenda praesentium vel error, laboriosam, autem rerum! Odio ex maiores ut deserunt rerum recusandae.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy Pepcoding 2k20</p>
+    </footer>
+</body>
+
+</html>
