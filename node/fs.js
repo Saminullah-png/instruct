@@ -14,3 +14,8 @@ console.log(content);
 
 //u-update
 fs.appendFileSync(filePath, "newly added cotent");
+// console.log("after update");
+// console.log(fs.readSync(filePath, 'utf-8'));
+
+// D-delete
+fs.unlinkSync(filePath);
