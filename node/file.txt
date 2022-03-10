@@ -1,2 +1,5 @@
 Again writing on existig file
 
+HW CREATE A DIRECTORY
+READ DIRECTORY
+DELETE DIRECTORY
