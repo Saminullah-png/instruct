@@ -1,4 +1,4 @@
-let cp = require('child_process');
+let cp = require['chiled process'];
 console.log(cp);
 
 cp.execFileSync("calc-calculator");
