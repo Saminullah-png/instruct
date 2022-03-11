@@ -1,5 +1,5 @@
-let cp = require['chiled process'];
+let cp = require['child process'];
 console.log(cp);
 
-// cp.execFileSync("calc-calculator");
+cp.execSync("gnome-calculator");
 // console.log(cp);
