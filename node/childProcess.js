@@ -1,5 +1,6 @@
 let cp = require['child process'];
 console.log(cp);
 
-cp.execSync("gnome-calculator");
+cp.exceSync("gnome-calculator");
+
 // console.log(cp);
