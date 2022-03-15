@@ -13,15 +13,15 @@ let organisePath = path.join(__dirname, "Organise");
 if (!fs.existsSync(organisePath));
 fs.mkdirSync(organisePath);
 
-for (let i = 0; i < arr1.length; i++) {
-    let folderKaPath = path.join(organisePath, arr1[i]);
+for (let i = 0; i < arr.length; i++) {
+    let folderKaPath = path.join(organisePath, arr[i]);
     if (!fs.existsSync(folderKaPath))
         fs.mkdirSync(folderKaPath);
-    for (let j = 0; j < nameArr1.length; j++)
-        let fileName = nameArr1[j] + extArr1[i];
+
+    for (let j = 0; j < nameArr.length; j++)
+        let fileName = nameArr[j] + extArr[i];
     let fileKaPath = path.join(folderKaPath, fileName);
     fs.writeFileSync(fileKaPath, "");
 
-}
 }
 }
